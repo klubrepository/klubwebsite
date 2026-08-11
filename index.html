@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>bravekinderklub</title>
+  <meta
+    name="description"
+    content="Creative studio portfolio for bravekinderklub. Fashion and commercial direction with an intimate editorial eye and playful storytelling."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-background-video">
+    <video autoplay muted loop playsinline preload="auto">
+      <source src="videos/logoanimation.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#top" class="brand">bravekinderklub</a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="#work">Videography</a>
+        <a href="#photography">Photography</a>
+        <a href="#djsets">DJ Sets</a>
+        <a href="#events">Event Films</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Creative Studio</p>
+          <h1>Videography<br />Photography</h1>
+          <p class="hero-text">
+            We direct fashion and commercials with an intimate editorial eye and playful storytelling.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#work" class="btn btn-primary">View Work</a>
+            <a href="#contact" class="btn btn-secondary">Contact</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Direction</p>
+          <h2>Selected Films</h2>
+        </div>
+
+        <div class="featured-reel">
+          <div class="video-frame">
+            <video controls preload="metadata" poster="images/directorsreel_thumb.png">
+              <source src="videos/directors_reel.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <div class="reel-copy">
+            <h3>Director Reel</h3>
+            <p>
+              A curated edit of fashion and commercial motion work built around intimacy, texture, and rhythmic visual storytelling.
+            </p>
+          </div>
+        </div>
+
+        <div class="scroll-row">
+          <a class="film-card-link" href="https://www.instagram.com/reel/DaNrszLsP_V/" target="_blank" rel="noopener noreferrer">
+            <article class="film-card">
+              <img src="images/rottennails.png" alt="Rotten Nails thumbnail" />
+              <div class="film-card-copy">
+                <h3>Rotten Nails</h3>
+                <p>Nail Commercial</p>
+              </div>
+            </article>
+          </a>
+
+          <a class="film-card-link" href="https://www.instagram.com/reel/Da8QSVXsTNy/" target="_blank" rel="noopener noreferrer">
+            <article class="film-card">
+              <img src="images/58s.png" alt="58 Pieces thumbnail" />
+              <div class="film-card-copy">
+                <h3>58 Pieces</h3>
+                <p>Fashion Film</p>
+              </div>
+            </article>
+          </a>
+
+          <a class="film-card-link" href="https://www.instagram.com/reel/DSFiItTjMjh/" target="_blank" rel="noopener noreferrer">
+            <article class="film-card">
+              <img src="images/bzokuhoodie.png" alt="Pearl Hoodie thumbnail" />
+              <div class="film-card-copy">
+                <h3>Pearl Hoodie</h3>
+                <p>Fashion Film</p>
+              </div>
+            </article>
+          </a>
+
+          <a class="film-card-link" href="https://www.instagram.com/reel/DZSbo2Hgpmn/" target="_blank" rel="noopener noreferrer">
+            <article class="film-card">
+              <img src="images/starkids.png" alt="Star Kids thumbnail" />
+              <div class="film-card-copy">
+                <h3>Star Kids</h3>
+                <p>Romance Short</p>
+              </div>
+            </article>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="photography" class="section">
+      <div class="container">
+        <div class="section-heading section-heading-inline">
+          <div>
+            <p class="eyebrow">Photography</p>
+            <h2>Selected Stills</h2>
+          </div>
+
+<!--           <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="portrait">Portrait</button>
+            <button class="filter-btn" data-filter="fashion">Fashion</button>
+          </div> -->
+        </div>
+
+        <div class="photo-grid">
+          <figure class="photo-card" data-category="portrait">
+            <img src="images/product_white_back_fem.png" alt="Portrait image 1" />
+          </figure>
+          <figure class="photo-card" data-category="fashion">
+            <img src="images/product_white_back_mal2.png" alt="Fashion image 1" />
+          </figure>
+		  <figure class="photo-card" data-category="portrait">
+            <img src="images/serah3.png" alt="Portrait image 2" />
+          </figure>
+		  <figure class="photo-card" data-category="fashion">
+            <img src="images/serah2.png" alt="Fashion image 2" />
+		  </figure>
+          <figure class="photo-card" data-category="portrait">
+            <img src="images/1_sofa.png" alt="Portrait image 3" />
+          </figure>
+          <figure class="photo-card" data-category="fashion">
+            <img src="images/3_standing.png" alt="Fashion image 3" />
+          </figure>
+          <figure class="photo-card" data-category="portrait">
+            <img src="images/10.png" alt="Portrait image 4" />
+          </figure>
+          <figure class="photo-card" data-category="fashion">
+            <img src="images/5.png" alt="Fashion image 4" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="djsets" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">DJ Sets</p>
+          <h2>Live Sessions</h2>
+        </div>
+
+        <div class="featured-reel">
+          <div class="video-frame">
+            <video controls preload="metadata" poster="images/dj_rey_set_sunset.png">
+              <source src="videos/scamming_ninjas_rrey_set.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <div class="reel-copy">
+            <h3>DJ Sets</h3>
+            <p>
+              Curated sound and performance-focused visuals exploring rhythm, mood, and presence.
+            </p>
+          </div>
+        </div>
+
+        <div class="scroll-row">
+          <a class="film-card-link" href="https://youtu.be/E6oSej29A6o?si=u_Ujdhl_PYY49js0" target="_blank" rel="noopener noreferrer">
+            <article class="film-card">
+              <img src="images/christmas_set.png" alt="Cunty Christmas Set thumbnail" />
+              <div class="film-card-copy">
+                <h3>Cunty Christmas Set</h3>
+                <p>Reida</p>
+              </div>
+            </article>
+          </a>
+
+          <a class="film-card-link" href="https://youtu.be/5-b-YXmjrUE?si=XYW3s5--IR2Xtz5a" target="_blank" rel="noopener noreferrer">
+            <article class="film-card">
+              <img src="images/dj_rey_set.png" alt="Afrobeat Set thumbnail" />
+              <div class="film-card-copy">
+                <h3>Afrobeat Set</h3>
+                <p>DJ Rey</p>
+              </div>
+            </article>
+          </a>
+
+          <a class="film-card-link" href="https://youtu.be/TWJmEJtZMgY?si=pimTbimkqJK4sSXK" target="_blank" rel="noopener noreferrer">
+            <article class="film-card">
+              <img src="images/jayda_set.png" alt="Ghetto Tech Set thumbnail" />
+              <div class="film-card-copy">
+                <h3>Ghetto Tech Set</h3>
+                <p>Reida</p>
+              </div>
+            </article>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="events" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Event Films</p>
+          <h2>Live Energy</h2>
+        </div>
+
+        <div class="featured-reel">
+          <div class="video-frame">
+            <video controls preload="metadata" poster="images/traphole_image.png">
+              <source src="videos/1_pay_try1.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <div class="reel-copy">
+            <h3>Event Films</h3>
+            <p>
+              Live energy, atmosphere, and movement captured through fast, immersive visual storytelling.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div>
+          <div class="section-heading">
+            <p class="eyebrow">About</p>
+            <h2>Studio Perspective</h2>
+          </div>
+
+          <p class="about-text">
+            Bravekinderklub is a Frankfurt-based creative studio working across fashion, portraiture, and commercial storytelling.
+            The work blends cinematic composition with editorial softness, building images that feel tactile, intimate, and alive.
+            Whether in motion or stills, each project is shaped around atmosphere, performance, and visual clarity.
+            The approach is collaborative, playful, and detail-focused from concept through final delivery.
+          </p>
+        </div>
+
+        <div class="about-lists">
+          <div>
+            <h3>Clients / Brands</h3>
+            <ul>
+              <li>Rottenappleatelier</li>
+              <li>Bzoku</li>
+              <li>Serahfemme</li>
+			  <li>EZBB</li>
+			  <li>Ploduction</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div>
+          <div class="section-heading">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s Work Together</h2>
+          </div>
+
+          <p class="contact-copy">
+            For commissions, collaborations, and creative conversations, reach out directly by email.
+          </p>
+
+          <p class="response-time">Replies within 1–2 days.</p>
+
+          <div class="contact-links">
+            <a class="btn btn-primary" href="mailto:info@bravekinderklub.com">Email Direct</a>
+            <a class="social-link" href="https://www.instagram.com/bravekinderklub" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a class="social-link" href="https://youtube.com/@bravekinderklub780" target="_blank" rel="noopener noreferrer">YouTube</a>
+          </div>
+        </div>
+
+        <form class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email" />
+
+          <label for="message">Project Details</label>
+          <textarea id="message" name="message" rows="6" placeholder="Tell me about your project"></textarea>
+
+          <button type="submit" class="btn btn-secondary">Send Inquiry</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 bravekinderklub</p>
+      <a href="mailto:info@bravekinderklub.com">info@bravekinderklub.com</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
