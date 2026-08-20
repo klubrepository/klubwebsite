@@ -533,3 +533,17 @@ p {
     font-size: 3rem;
   }
 }
+
+@media (max-width: 760px) {
+  .nav {
+    position: relative;
+  }
+
+  .site-nav {
+    position: absolute;
+    top: 76px;
+    left: 0;
+    right: 0;
+    z-index: 1001;
+  }
+}

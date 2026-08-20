@@ -463,3 +463,23 @@ p {
     font-size: 3rem;
   }
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  const menuToggle = document.getElementById("menuToggle");
+  const siteNav = document.getElementById("siteNav");
+
+  if (!menuToggle || !siteNav) return;
+
+  menuToggle.addEventListener("click", () => {
+    siteNav.classList.toggle("open");
+    const expanded = menuToggle.getAttribute("aria-expanded") === "true";
+    menuToggle.setAttribute("aria-expanded", String(!expanded));
+  });
+
+  siteNav.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      siteNav.classList.remove("open");
+      menuToggle.setAttribute("aria-expanded", "false");
+    });
+  });
+});
