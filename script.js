@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --bg: #0b0b0d;
   --panel: #131317;
   --panel-2: #18181d;
@@ -463,7 +463,7 @@ p {
     font-size: 3rem;
   }
 }
-
+ */
 document.addEventListener("DOMContentLoaded", () => {
   const menuToggle = document.getElementById("menuToggle");
   const siteNav = document.getElementById("siteNav");
